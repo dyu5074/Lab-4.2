@@ -7,8 +7,8 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;;
 public class CSVUtilities {
-	ArrayList<String> CSVData;
-	int numColumns;
+	private ArrayList<String> CSVData;
+	
 	public CSVUtilities(File csv)
 	{
 		
