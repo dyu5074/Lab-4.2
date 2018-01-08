@@ -22,26 +22,26 @@ public class Runner {
 		{
 			System.out.println(x);
 		}
-		List<String> School = CSVUtilities.getDataString(0);
-		for(String x : School)
+		List<String> Year = CSVUtilities.getDataString(0);
+		for(String x : Year)
 		{
 			System.out.print(x+ " ");
 		}
 		System.out.println();
-		List<String> Name = CSVUtilities.getDataString(1);
-		for(String x : Name)
+		List<String> Population = CSVUtilities.getDataString(1);
+		for(String x : Population)
 		{
 			System.out.print(x+ " ");
 		}
 		System.out.println();
-		List<Integer> Takers = CSVUtilities.getDataInt(2);
-		for(int x : Takers)
+		List<Integer> Consumption = CSVUtilities.getDataInt(2);
+		for(int x : Consumption)
 		{
 			System.out.print(x+ " ");
 		}
 		System.out.println();
-		List<Integer> Eng = CSVUtilities.getDataInt(3);
-		for(int x : Eng)
+		List<Integer> percapita = CSVUtilities.getDataInt(3);
+		for(int x : percapita)
 		{
 			System.out.print(x+ " ");
 		}
