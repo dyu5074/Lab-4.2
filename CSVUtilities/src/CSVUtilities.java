@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 // made by Derek Yu
+// Lab 4.2
 public class CSVUtilities {
 	private static ArrayList<String> CSVData = new ArrayList<String>();
 	private int numColumn;
